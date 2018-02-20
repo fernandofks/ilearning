@@ -1,7 +1,4 @@
-// page-home {
-//     overflow-x: hidden;
-//     overflow-y: hidden;
-// }
+
 
 .background{
     
@@ -23,22 +20,18 @@
     padding:0 !important;
 }
 
-.scroll-content{
-    padding:0 !important;
+.bola{
+    width:250px;
+    height:250px;
+    border-radius:150px;
+    background-color: rgba(255, 255, 255, 0.9);
+
 }
 
-// .bola{
-//     width:250px;
-//     height:250px;
-//     border-radius:150px;
-//     background-color: rgba(255, 255, 255, 0.9);
-
-// }
-
-// img{
-//     border-radius:1rem;
-//     position: absolute;
-//     top: 28%;
-//     right: 28%;
-//     width: 45%;
-// }
+img{
+    border-radius:1rem;
+    position: absolute;
+    top: 28%;
+    right: 28%;
+    width: 45%;
+}

@@ -6,13 +6,53 @@ page-questionario {
     
 
 .background2{
-    background-image: url("../assets/imgs/learning.jpg");
+    background-image: url("https://st2.depositphotos.com/1152339/9058/i/950/depositphotos_90581512-stock-photo-learning-concept-head-with-light.jpg");
     height: 100vh;
     width: 100vw;
     margin: 0%;
     background-size:cover;
+    background-position: center;
 }
 
+.teste{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    align-content: center;
+}
+
+.pergunta{
+    font-size: 30px;
+    margin: 0%;
+    background-color: rgba(255, 255, 255, 0.733);
+    margin-left: 0.9rem;
+    text-align: center;
+    border-radius: 10px;
+    width: 95%;
+    
+}
+
+.resposta{
+    font-size: 20px;
+    margin: 0%;
+    background-color: rgba(255, 255, 255, 0.733);
+    margin-left: 0.9rem;
+    text-align: center;
+    border-radius: 10px;
+    width: 95%;
+}
+
+
+.buttons{
+    justify-content: space-around;
+    display: flex;
+}
+
+.button12{
+    margin: 0;
+    width: 15%;
+}
 
 
 
