@@ -9,7 +9,6 @@ import { HomePage } from '../pages/home/home';
 import { MissaoPageModule } from '../pages/missao/missao.module';
 import { ConfirmacaoPageModule } from '../pages/confirmacao/confirmacao.module';
 
-
 @NgModule({
   declarations: [
     MyApp,
