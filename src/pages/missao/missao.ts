@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { ConfirmacaoPage } from '../confirmacao/confirmacao';
 
 /**
  * Generated class for the MissaoPage page.
@@ -21,5 +22,7 @@ export class MissaoPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad MissaoPage');
   }
-
+  irConfirmacao(){
+    this.navCtrl.push(ConfirmacaoPage);
+  }
 }

@@ -2,18 +2,21 @@ page-missao {
 
     .missao{
         border-radius: 1rem;
-        background-color: rgba(255, 255, 255, 0.95);
-        margin:1rem;
+        background-color: rgba(255, 255, 255, 0.9);
+        margin: 1rem;
         padding:1rem;
-        margin-top:1rem;
+        display: block;
     }
-
 
     .background1{
     
         background-image: url("../assets/imgs/jovens.jpg");
         background-size: cover;
         background-position: center, center;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
         width:100vw;
         height:100vh;
         padding:0;
