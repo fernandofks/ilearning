@@ -8,6 +8,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { MissaoPageModule } from '../pages/missao/missao.module';
 import { ConfirmacaoPageModule } from '../pages/confirmacao/confirmacao.module';
+import { QuestionarioPageModule } from '../pages/questionario/questionario.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ConfirmacaoPageModule } from '../pages/confirmacao/confirmacao.module';
     BrowserModule,
     IonicModule.forRoot(MyApp),
     MissaoPageModule,
-    ConfirmacaoPageModule
+    ConfirmacaoPageModule,
+    QuestionarioPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
