@@ -3,7 +3,8 @@ page-home {
     overflow-y: hidden;
 }
 
-.scroll-content{
+.background{
+    
     background-image: url("../assets/imgs/estudando2.jpg");
     background-size: cover;
     background-position: center, center;
@@ -11,7 +12,15 @@ page-home {
     justify-content: center;
     align-items: center;
     align-content: center;
+    width:100vw;
+    height:100vh;
+    padding:0;
+    margin:0;
 
+}
+
+.scroll-content{
+    padding:0 !important;
 }
 
 .bola{
