@@ -8,7 +8,7 @@ import { MissaoPage } from '../pages/missao/missao';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = MissaoPage;
+  rootPage:any = HomePage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
